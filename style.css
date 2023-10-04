@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container{
+    background-color: rgb(68, 63, 63);
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    border: 2px solid #88888888;
+}
+
+h1{
+    margin-bottom: 55px;
+    color: whitesmoke;
+}
+
+.display{
+    width: 250px;
+    height: 25px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.clean{
+    width: 52px;
+    height: 40px;
+    margin: 5px;
+}
+
+.btn-num{
+    width: 52px;
+    height: 40px;
+    margin: 5px;
+}
+
+.btn-del{
+    width: 52px;
+    height: 40px;
+    margin: 5px;
+}
+
+.btn-eq{
+    width: 52px;
+    height: 40px;
+    margin: 5px;
+}
